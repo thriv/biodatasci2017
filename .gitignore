@@ -1,0 +1,29 @@
+# Ignore build _site/ directory, and use https://github.com/davisp/ghp-import
+_site/
+
+# R project, history, etc.
+.Rproj.user
+.Rhistory
+.RData
+.Rprofile
+
+# knitr caches and files.
+*_cache/
+*_files/
+
+# Rendered HTML slides and keynote sources
+# slides/*.key
+slides/*.html
+!slides/index.html
+
+# Unfinished lessons
+Untitled*
+
+# development notes
+# _dev/
+
+# OSX Stuff
+.gitconfig.local
+.DS_Store*
+._*
+.Trashes
